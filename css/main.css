@@ -1,0 +1,26 @@
+h1{
+/*colocando una linea al borde del titulo y con alineacion al centro*/
+ outline: 1px solid yellow;
+ text-align: center
+  }
+
+/*colocando el ancho ,la imagen de el lado izquierdo y un margen de 8px*/
+.caja{
+ /*outline: 1px solid red; sirve para colocar un borde delgado*/
+ width: 380px;
+ padding: 10px;
+ border: 1px solid #999;
+ margin-left: 8px;
+ box-sizing: border-box;
+ float: left;
+
+  }
+/*colocando una linea al borde de la imagen */
+img {
+outline: 1px solid blue;
+max-width: 100%;
+  }
+
+  p {
+ outline: 1px solid red;
+  }
